@@ -1,0 +1,28 @@
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "name": "new User",
+    "email": "user@dipu.com",
+    "password": "pass"
+}
+
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "email": "user@dipu.com",
+    "password": "pass"
+}
+
+###
+
+
+DELETE  http://localhost:4000/removeuser
+Content-Type: application/json
+
+{
+    "email": "user@email.com"
+}

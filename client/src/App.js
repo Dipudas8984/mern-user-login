@@ -17,9 +17,6 @@ function App() {
               user && user._id ? <Homepage setLoginUser={setLoginUser} user={user}/> : <Login setLoginUser={setLoginUser}/>
             }
           </Route>
-          <Route path="/login">
-            <Login setLoginUser={setLoginUser}/>
-          </Route>
           <Route path="/register">
             <Register />
           </Route>
